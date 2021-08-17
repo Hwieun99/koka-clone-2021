@@ -31,12 +31,16 @@
       <p class="welcome-header__text">
         If you have a Kokoa Account, log in with your email number.
       </p>
-      >
     </header>
 
-    <form>
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input name="password" required type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find KoKoa Account or Password</a>
     </form>
